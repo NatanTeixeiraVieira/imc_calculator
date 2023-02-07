@@ -56,7 +56,7 @@ $ npm start
 
 ## Testar
 
-- Caso queira testar o projeto sem instalar nada:
+- Caso queira testar o projeto sem instalar nada: https://calculadoradeimcreact.netlify.app/
 
 ---
 
