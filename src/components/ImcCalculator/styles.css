@@ -8,7 +8,7 @@
 }
 
 .imc_calculator-form {
-  width: 25%;
+  width: 30%;
 }
 
 .imc_calculator-form label {
@@ -18,7 +18,7 @@
 
 .imc_calculator-form input {
   font-size: 16px;
-  width: 85%;
+  width: 75%;
   margin: 5px 5px 0 0;
   padding: 0.5rem;
   border-radius: 5px;
@@ -26,7 +26,7 @@
 
 .button_calculate {
   font-size: 16px;
-  width: 90%;
+  width: 80%;
   padding: 0.5rem 0;
   background-color: #7c7c7c;
   color: #ffffff;
@@ -37,4 +37,26 @@
 
 .form-result {
   margin: 1rem 0;
+}
+
+@media (max-width: 1023px) {
+  .imc_calculator-form {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .imc_calculator-form {
+    width: 100%;
+  }
+
+  .button_calculate {
+    width: 78%;
+  }
+}
+
+@media (max-width: 550px) {
+  .button_calculate {
+    width: 80%;
+  }
 }

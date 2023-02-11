@@ -1,3 +1,15 @@
 body {
   padding: 2rem 8rem;
 }
+
+@media (max-width: 1023px) {
+  body {
+    padding: 2rem 3rem;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    padding: 2rem 2rem;
+  }
+}
